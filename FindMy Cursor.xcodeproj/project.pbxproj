@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064182C42C051AE3000D2C0B /* FindMy_CursorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182C32C051AE3000D2C0B /* FindMy_CursorApp.swift */; };
+		064182C62C051AE3000D2C0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182C52C051AE3000D2C0B /* ContentView.swift */; };
+		064182C82C051AE3000D2C0B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182C72C051AE3000D2C0B /* Item.swift */; };
+		064182CA2C051AE6000D2C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064182C92C051AE6000D2C0B /* Assets.xcassets */; };
+		064182CE2C051AE6000D2C0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 064182CD2C051AE6000D2C0B /* Preview Assets.xcassets */; };
+		064182D82C051AE6000D2C0B /* FindMy_CursorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182D72C051AE6000D2C0B /* FindMy_CursorTests.swift */; };
+		064182E22C051AE6000D2C0B /* FindMy_CursorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182E12C051AE6000D2C0B /* FindMy_CursorUITests.swift */; };
+		064182E42C051AE6000D2C0B /* FindMy_CursorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182E32C051AE6000D2C0B /* FindMy_CursorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		064182D42C051AE6000D2C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064182B82C051AE3000D2C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064182BF2C051AE3000D2C0B;
+			remoteInfo = "FindMy Cursor";
+		};
+		064182DE2C051AE6000D2C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064182B82C051AE3000D2C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064182BF2C051AE3000D2C0B;
+			remoteInfo = "FindMy Cursor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064182C02C051AE3000D2C0B /* FindMy Cursor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FindMy Cursor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064182C32C051AE3000D2C0B /* FindMy_CursorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMy_CursorApp.swift; sourceTree = "<group>"; };
+		064182C52C051AE3000D2C0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		064182C72C051AE3000D2C0B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		064182C92C051AE6000D2C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		064182CB2C051AE6000D2C0B /* FindMy_Cursor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FindMy_Cursor.entitlements; sourceTree = "<group>"; };
+		064182CD2C051AE6000D2C0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		064182D32C051AE6000D2C0B /* FindMy CursorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FindMy CursorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064182D72C051AE6000D2C0B /* FindMy_CursorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMy_CursorTests.swift; sourceTree = "<group>"; };
+		064182DD2C051AE6000D2C0B /* FindMy CursorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FindMy CursorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064182E12C051AE6000D2C0B /* FindMy_CursorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMy_CursorUITests.swift; sourceTree = "<group>"; };
+		064182E32C051AE6000D2C0B /* FindMy_CursorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMy_CursorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064182BD2C051AE3000D2C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064182D02C051AE6000D2C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064182DA2C051AE6000D2C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064182B72C051AE3000D2C0B = {
+			isa = PBXGroup;
+			children = (
+				064182C22C051AE3000D2C0B /* FindMy Cursor */,
+				064182D62C051AE6000D2C0B /* FindMy CursorTests */,
+				064182E02C051AE6000D2C0B /* FindMy CursorUITests */,
+				064182C12C051AE3000D2C0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		064182C12C051AE3000D2C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064182C02C051AE3000D2C0B /* FindMy Cursor.app */,
+				064182D32C051AE6000D2C0B /* FindMy CursorTests.xctest */,
+				064182DD2C051AE6000D2C0B /* FindMy CursorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		064182C22C051AE3000D2C0B /* FindMy Cursor */ = {
+			isa = PBXGroup;
+			children = (
+				064182C32C051AE3000D2C0B /* FindMy_CursorApp.swift */,
+				064182C52C051AE3000D2C0B /* ContentView.swift */,
+				064182C72C051AE3000D2C0B /* Item.swift */,
+				064182C92C051AE6000D2C0B /* Assets.xcassets */,
+				064182CB2C051AE6000D2C0B /* FindMy_Cursor.entitlements */,
+				064182CC2C051AE6000D2C0B /* Preview Content */,
+			);
+			path = "FindMy Cursor";
+			sourceTree = "<group>";
+		};
+		064182CC2C051AE6000D2C0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				064182CD2C051AE6000D2C0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		064182D62C051AE6000D2C0B /* FindMy CursorTests */ = {
+			isa = PBXGroup;
+			children = (
+				064182D72C051AE6000D2C0B /* FindMy_CursorTests.swift */,
+			);
+			path = "FindMy CursorTests";
+			sourceTree = "<group>";
+		};
+		064182E02C051AE6000D2C0B /* FindMy CursorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				064182E12C051AE6000D2C0B /* FindMy_CursorUITests.swift */,
+				064182E32C051AE6000D2C0B /* FindMy_CursorUITestsLaunchTests.swift */,
+			);
+			path = "FindMy CursorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		064182BF2C051AE3000D2C0B /* FindMy Cursor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064182E72C051AE6000D2C0B /* Build configuration list for PBXNativeTarget "FindMy Cursor" */;
+			buildPhases = (
+				064182BC2C051AE3000D2C0B /* Sources */,
+				064182BD2C051AE3000D2C0B /* Frameworks */,
+				064182BE2C051AE3000D2C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FindMy Cursor";
+			productName = "FindMy Cursor";
+			productReference = 064182C02C051AE3000D2C0B /* FindMy Cursor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		064182D22C051AE6000D2C0B /* FindMy CursorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064182EA2C051AE6000D2C0B /* Build configuration list for PBXNativeTarget "FindMy CursorTests" */;
+			buildPhases = (
+				064182CF2C051AE6000D2C0B /* Sources */,
+				064182D02C051AE6000D2C0B /* Frameworks */,
+				064182D12C051AE6000D2C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064182D52C051AE6000D2C0B /* PBXTargetDependency */,
+			);
+			name = "FindMy CursorTests";
+			productName = "FindMy CursorTests";
+			productReference = 064182D32C051AE6000D2C0B /* FindMy CursorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		064182DC2C051AE6000D2C0B /* FindMy CursorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064182ED2C051AE6000D2C0B /* Build configuration list for PBXNativeTarget "FindMy CursorUITests" */;
+			buildPhases = (
+				064182D92C051AE6000D2C0B /* Sources */,
+				064182DA2C051AE6000D2C0B /* Frameworks */,
+				064182DB2C051AE6000D2C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064182DF2C051AE6000D2C0B /* PBXTargetDependency */,
+			);
+			name = "FindMy CursorUITests";
+			productName = "FindMy CursorUITests";
+			productReference = 064182DD2C051AE6000D2C0B /* FindMy CursorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		064182B82C051AE3000D2C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					064182BF2C051AE3000D2C0B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					064182D22C051AE6000D2C0B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 064182BF2C051AE3000D2C0B;
+					};
+					064182DC2C051AE6000D2C0B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 064182BF2C051AE3000D2C0B;
+					};
+				};
+			};
+			buildConfigurationList = 064182BB2C051AE3000D2C0B /* Build configuration list for PBXProject "FindMy Cursor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 064182B72C051AE3000D2C0B;
+			productRefGroup = 064182C12C051AE3000D2C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				064182BF2C051AE3000D2C0B /* FindMy Cursor */,
+				064182D22C051AE6000D2C0B /* FindMy CursorTests */,
+				064182DC2C051AE6000D2C0B /* FindMy CursorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		064182BE2C051AE3000D2C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064182CE2C051AE6000D2C0B /* Preview Assets.xcassets in Resources */,
+				064182CA2C051AE6000D2C0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064182D12C051AE6000D2C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064182DB2C051AE6000D2C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064182BC2C051AE3000D2C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064182C62C051AE3000D2C0B /* ContentView.swift in Sources */,
+				064182C82C051AE3000D2C0B /* Item.swift in Sources */,
+				064182C42C051AE3000D2C0B /* FindMy_CursorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064182CF2C051AE6000D2C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064182D82C051AE6000D2C0B /* FindMy_CursorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064182D92C051AE6000D2C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				064182E22C051AE6000D2C0B /* FindMy_CursorUITests.swift in Sources */,
+				064182E42C051AE6000D2C0B /* FindMy_CursorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		064182D52C051AE6000D2C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064182BF2C051AE3000D2C0B /* FindMy Cursor */;
+			targetProxy = 064182D42C051AE6000D2C0B /* PBXContainerItemProxy */;
+		};
+		064182DF2C051AE6000D2C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064182BF2C051AE3000D2C0B /* FindMy Cursor */;
+			targetProxy = 064182DE2C051AE6000D2C0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		064182E52C051AE6000D2C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		064182E62C051AE6000D2C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		064182E82C051AE6000D2C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FindMy Cursor/FindMy_Cursor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindMy Cursor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZingLab.FindMy-Cursor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		064182E92C051AE6000D2C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "FindMy Cursor/FindMy_Cursor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindMy Cursor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZingLab.FindMy-Cursor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		064182EB2C051AE6000D2C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZingLab.FindMy-CursorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMy Cursor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindMy Cursor";
+			};
+			name = Debug;
+		};
+		064182EC2C051AE6000D2C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZingLab.FindMy-CursorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMy Cursor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindMy Cursor";
+			};
+			name = Release;
+		};
+		064182EE2C051AE6000D2C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZingLab.FindMy-CursorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FindMy Cursor";
+			};
+			name = Debug;
+		};
+		064182EF2C051AE6000D2C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZingLab.FindMy-CursorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FindMy Cursor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064182BB2C051AE3000D2C0B /* Build configuration list for PBXProject "FindMy Cursor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064182E52C051AE6000D2C0B /* Debug */,
+				064182E62C051AE6000D2C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064182E72C051AE6000D2C0B /* Build configuration list for PBXNativeTarget "FindMy Cursor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064182E82C051AE6000D2C0B /* Debug */,
+				064182E92C051AE6000D2C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064182EA2C051AE6000D2C0B /* Build configuration list for PBXNativeTarget "FindMy CursorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064182EB2C051AE6000D2C0B /* Debug */,
+				064182EC2C051AE6000D2C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064182ED2C051AE6000D2C0B /* Build configuration list for PBXNativeTarget "FindMy CursorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064182EE2C051AE6000D2C0B /* Debug */,
+				064182EF2C051AE6000D2C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 064182B82C051AE3000D2C0B /* Project object */;
+}
