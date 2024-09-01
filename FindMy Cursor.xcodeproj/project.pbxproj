@@ -15,6 +15,8 @@
 		064182D82C051AE6000D2C0B /* FindMy_CursorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182D72C051AE6000D2C0B /* FindMy_CursorTests.swift */; };
 		064182E22C051AE6000D2C0B /* FindMy_CursorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182E12C051AE6000D2C0B /* FindMy_CursorUITests.swift */; };
 		064182E42C051AE6000D2C0B /* FindMy_CursorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182E32C051AE6000D2C0B /* FindMy_CursorUITestsLaunchTests.swift */; };
+		064182F12C0522B1000D2C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182F02C0522B1000D2C0B /* AppDelegate.swift */; };
+		064182F32C05230D000D2C0B /* MouseCursorFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064182F22C05230D000D2C0B /* MouseCursorFinder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		064182DD2C051AE6000D2C0B /* FindMy CursorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FindMy CursorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		064182E12C051AE6000D2C0B /* FindMy_CursorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMy_CursorUITests.swift; sourceTree = "<group>"; };
 		064182E32C051AE6000D2C0B /* FindMy_CursorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMy_CursorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		064182F02C0522B1000D2C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		064182F22C05230D000D2C0B /* MouseCursorFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseCursorFinder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				064182C32C051AE3000D2C0B /* FindMy_CursorApp.swift */,
 				064182C52C051AE3000D2C0B /* ContentView.swift */,
 				064182C72C051AE3000D2C0B /* Item.swift */,
+				064182F02C0522B1000D2C0B /* AppDelegate.swift */,
+				064182F22C05230D000D2C0B /* MouseCursorFinder.swift */,
 				064182C92C051AE6000D2C0B /* Assets.xcassets */,
 				064182CB2C051AE6000D2C0B /* FindMy_Cursor.entitlements */,
 				064182CC2C051AE6000D2C0B /* Preview Content */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064182F12C0522B1000D2C0B /* AppDelegate.swift in Sources */,
 				064182C62C051AE3000D2C0B /* ContentView.swift in Sources */,
 				064182C82C051AE3000D2C0B /* Item.swift in Sources */,
 				064182C42C051AE3000D2C0B /* FindMy_CursorApp.swift in Sources */,
+				064182F32C05230D000D2C0B /* MouseCursorFinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
